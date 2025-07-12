@@ -2,33 +2,14 @@
 
 This extension enables ABC music notation rendering in MediaWiki using [abcjs](https://abcjs.net).
 
-## Required JavaScript
+[![Join the discussion at https://github.com/WolfgangFahl/ABCNotation/discussions](https://img.shields.io/github/discussions/WolfgangFahl/ABCNotation)](https://github.com/WolfgangFahl/ABCNotation/discussions)
 
-Download the runtime file from a trusted CDN:
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/ABCNotation.svg)](https://github.com/WolfgangFahl/ABCNotation/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/ABCNotation.svg)](https://github.com/WolfgangFahl/ABCNotation/issues/?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/WolfgangFahl/ABCNotation.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-https://cdnjs.cloudflare.com/ajax/libs/abcjs/6.5.1/abcjs-basic-min.js
 
-Use this command to fetch it:
-
-    wget -O extensions/ABCjs/modules/abcjs/abcjs-basic-min.js \
-         https://cdnjs.cloudflare.com/ajax/libs/abcjs/6.5.1/abcjs-basic-min.js
-
-wget -O extensions/ABCjs/modules/abcjs/abcjs-audio.css \
-     https://paulrosen.github.io/abcjs/abcjs-audio.css
-
-## Installation
-
-1. Copy this extension to `extensions/ABCjs/`
-
-2. Add to `LocalSettings.php`:
-
-    wfLoadExtension("ABCjs");
-
-3. Purge any affected wiki page:
-
-    ?action=purge
-
-## Usage
+# Usage
 
 Embed ABC notation using:
 
@@ -41,3 +22,20 @@ Embed ABC notation using:
     C D E F | G A B c |
     </abc>
 
+# Demo
+[Cooley's](https://wiki.bitplan.com/index.php/Cooley%27s)
+
+# Links
+https://www.mediawiki.org/wiki/Extension:AbcNotation
+
+# Installation
+
+1. Clone this extension to `extensions/AbcNotation/`
+
+2. Add to `LocalSettings.php`:
+
+    wfLoadExtension("ABCNotation");
+
+3. Purge any affected wiki page:
+
+    ?action=purge
