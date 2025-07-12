@@ -1,4 +1,4 @@
-# ABCjs MediaWiki Extension
+# ABCNotation MediaWiki Extension
 
 This extension enables ABC music notation rendering in MediaWiki using [abcjs](https://abcjs.net).
 
@@ -40,9 +40,4 @@ Embed ABC notation using:
     K:C
     C D E F | G A B c |
     </abc>
-
-## Notes
-
-- `abcjs-basic-min.js` must be stored locally.
-- Do not use a full URL in `extension.json` — MediaWiki's ResourceLoader does not load external JavaScript files.
 
