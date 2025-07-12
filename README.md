@@ -9,8 +9,7 @@ This extension enables ABC music notation rendering in MediaWiki using [abcjs](h
 
 # Motivation
 Note and play musik directly in you MediaWiki
-![Cooley's example](https://github.com/user-attachments/assets/5f76f27c-4fd7-4109-935d-aadcc2337a79)
-
+[![Cooley's example](https://github.com/user-attachments/assets/5f76f27c-4fd7-4109-935d-aadcc2337a79)](https://wiki.bitplan.com/index.php/Cooley%27s)
 
 # Usage
 
