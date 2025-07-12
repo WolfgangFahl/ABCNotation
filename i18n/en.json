@@ -1,0 +1,6 @@
+{
+  "@metadata": {
+    "authors": [ "Wolfgang Fahl" ]
+  },
+  "abcjs-desc": "Render ABC music notation using abcjs"
+}

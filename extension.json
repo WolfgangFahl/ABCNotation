@@ -1,0 +1,32 @@
+{
+  "name": "ABCNotation",
+  "version": "0.1.0",
+  "author": "Wolfgang Fahl",
+  "url": "https://github.com/WolfgangFahl/ABCNotation",
+  "descriptionmsg": "abcjs-desc",
+  "type": "parserhook",
+  "AutoloadClasses": {
+    "ABCjsHooks": "ABCjsHooks.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "ABCjsHooks::onParserFirstCallInit"
+  },
+  "ResourceModules": {
+    "ext.abcjs": {
+      "localBasePath": "",
+      "remoteExtPath": "ABCjs",
+      "scripts": [
+	"modules/abcjs/abcjs-basic-min.js",
+        "modules/abcjs/abcjs-init.js"
+      ],
+      "styles": [
+	"modules/abcjs/abcjs-audio.css"
+      ],
+      "position": "bottom"
+    }
+  },
+  "MessagesDirs": {
+    "ABCjs": [ "i18n" ]
+  }
+}
+
