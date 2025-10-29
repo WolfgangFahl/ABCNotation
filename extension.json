@@ -1,10 +1,11 @@
 {
   "name": "ABCNotation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Wolfgang Fahl",
   "url": "https://github.com/WolfgangFahl/ABCNotation",
   "descriptionmsg": "abcjs-desc",
   "type": "parserhook",
+  "license-name": "Apache-2.0",
   "AutoloadClasses": {
     "ABCjsHooks": "ABCjsHooks.php"
   },
@@ -29,4 +30,3 @@
     "ABCjs": [ "i18n" ]
   }
 }
-
