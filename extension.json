@@ -28,5 +28,6 @@
   },
   "MessagesDirs": {
     "ABCjs": [ "i18n" ]
-  }
+  },
+  "manifest_version": 2
 }
