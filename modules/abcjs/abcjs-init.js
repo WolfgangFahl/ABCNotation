@@ -42,11 +42,13 @@ function initABC() {
     var elements = document.querySelectorAll(".abcjs-raw");
     
     // Process each ABC notation element
-    for (var i = 0; i < elements.length; i++) {
-      var el = elements[i];
-      
+    // let: each iteration needs its own binding, the onclick closures below
+    // would otherwise all see the last element of the loop
+    for (let i = 0; i < elements.length; i++) {
+      let el = elements[i];
+
       // Render the ABC notation as visual sheet music
-      var visualObj = ABCJS.renderAbc(el.id + "_rendered", el.textContent, {
+      let visualObj = ABCJS.renderAbc(el.id + "_rendered", el.textContent, {
         responsive: 'resize'  // Make the notation responsive to container size
       });
       
